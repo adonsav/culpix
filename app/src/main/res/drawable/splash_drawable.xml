@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The culinary art background color -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- App logo -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/culpix_logo_splash" />
+    </item>
+
+</layer-list>
