@@ -17,7 +17,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/unsplash_brooke_lark_culpix_intro_photo" />
+            app:srcCompat="@drawable/unsplash_brooke_lark_culpix_intro_photo_2" />
 
         <Button
             android:id="@+id/signup_btn"
