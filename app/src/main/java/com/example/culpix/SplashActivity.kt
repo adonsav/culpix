@@ -23,10 +23,8 @@ class SplashActivity : AppCompatActivity() {
         handler.postDelayed({
             val intent: Intent
             if (auth.currentUser == null) {
-                // TODO Create ConnectActivity
-                //intent = Intent(this@SplashActivity, ConnectActivity::class.java)
-                // TODO Start ConnectActivity
-                //startActivity(intent)
+                intent = Intent(this@SplashActivity, ConnectActivity::class.java)
+                startActivity(intent)
                 finish()
             } else {
                 // TODO Call the proper activity when ready
