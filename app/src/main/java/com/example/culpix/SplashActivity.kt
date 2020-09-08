@@ -8,6 +8,8 @@ import androidx.databinding.DataBindingUtil
 import com.example.culpix.databinding.ActivitySplashBinding
 import com.google.firebase.auth.FirebaseAuth
 
+private const val SPLASH_TIMEOUT = 2000L
+
 class SplashActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashBinding
@@ -29,7 +31,7 @@ class SplashActivity : AppCompatActivity() {
             } else {
                 // TODO Call the proper activity when ready
             }
-        }, 2000)
+        }, SPLASH_TIMEOUT)
 
     }
 
