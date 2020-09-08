@@ -23,7 +23,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName=".ConnectActivity"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
